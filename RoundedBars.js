@@ -1,6 +1,6 @@
 import { Chart as ChartJS } from 'react-chartjs-2';
 
-ChartJS.elements.barElement.prototype.draw = function () {
+ChartJS.elements.BarElement.prototype.draw = function () {
   const ctx = this._chart.ctx;
   const vm = this._view;
   let left, right, top, bottom, signX, signY, borderSkipped;
